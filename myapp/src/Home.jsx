@@ -1,6 +1,8 @@
 import {useEffect} from 'react'
 import HeroSection from './components/HeroSection'
 import { useGlobalContext } from "./Context";
+import Services from "./Services"
+import Contact from "./Contact";
 
 function Home() {
 
@@ -12,8 +14,8 @@ function Home() {
   return (
     <>
       <HeroSection />
-      {/* <Services /> */}
-      {/* <Contact /> */}
+      <Services />
+      <Contact />
     </>
   );
 

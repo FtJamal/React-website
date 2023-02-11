@@ -12,6 +12,7 @@ import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GlobalStyle from "./GlobalStyle";
+import GoToTop from "./components/GoToTop";
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
         <Route path="*" element={<Error />} />
 
       </Routes>
+      <GoToTop />
       <Footer />
       </BrowserRouter>
       </ThemeProvider>

@@ -89,14 +89,16 @@ padding: 5rem ;
     .container{
       display : flex;
       flex:wrap;
+      align-items:center;
       flex-direction : column;
       gap : 25px;
     }
     .section-hero-image{
-    //   width : 290px;
-       height :200px;
-       padding-left:40px
-    }
+      width : 290px;
+      //  height :200px;
+       margin-top:20px;
+       align-items:center;
+      }
     
     
   }

@@ -19,14 +19,15 @@ function Header() {
 
 const MainHeader = styled.header`
 padding: 0 2rem;
-height: 6rem;
+height: 10rem;
 background-color: ${({theme})=>theme.colors.bg};
  display:flex;
  justify-content: space-between;
 align-items: center;
 .logo{
   height:auto;
-  max-width:20%;
+  max-width:25%;
+  
 }
 `
 
